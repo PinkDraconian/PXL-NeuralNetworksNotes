@@ -1,7 +1,7 @@
 ---
 title: Week 2 - Neural Networks Basics
 created: '2020-09-29T11:08:51.182Z'
-modified: '2020-09-29T12:39:34.147Z'
+modified: '2020-09-30T15:02:57.713Z'
 ---
 
 # Week 2 - Neural Networks Basics
@@ -39,6 +39,10 @@ Inputs -> Weights -> Summation and bias -> Activation -> Output
   - Nodes arriving at large negative values  (due to unfortunate random initialization, too large learning rate, high bias numbers) will be set to 0, won't be activated and won't be able to recover from this, thus effectively killing the node.
 - Leaky ReLu
   - $f(x) = \begin{cases} 0.01x, & \text{if}\ x < 0 \\ x, & \text{otherwise} \\ \end{cases}$
+- ELU
+  - Exponential Linear Unit
+  - Kleiner dan 0: $\alpha(e^x-1)$
+  - Domain between -1 and inf
 
 ## Cost function
 - Regression problem

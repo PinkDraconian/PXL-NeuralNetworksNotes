@@ -2,7 +2,7 @@
 attachments: [Clipboard_2020-09-21-19-52-19.png]
 title: Week 1 - RECAP
 created: '2020-09-21T16:58:14.081Z'
-modified: '2020-09-21T18:17:19.733Z'
+modified: '2020-10-07T08:28:04.909Z'
 ---
 
 # Week 1 - RECAP
@@ -74,3 +74,22 @@ Datasets over algorithms
 - Epoch - An Epoch represents one iteration over the entire dataset
 - Batch - We cannot pass the entire dataset into the neural network at once. So we divide the dataset into number of batches.
 - Iteration - If we have 10000 images as data and a batch size of 200, then one epoch should contain 50 iterations
+
+## Bespreek de "goodness" van een model tijdens training, en tijdens test fase. Voor zowel classification als regression.
+Kijken of de prediction realistisch is en accuraatheid onderzoeken
+
+Stappenplan:
+1. dataset dubbelchecken/cleanen 
+2. dataset vergroten of verkleinen 
+3. hyperparameters toepassen (tijdens testfase)
+4. batches
+5. variance verminderen
+
+Overfit --> train goed test slecht --> stoppen met trainen/verkeerde features/meer data/Random forest ipv single (meer ongecontroleerde trees)
+Underfit --> train slecht test slecht
+
+## Wat is het probleem met een unbalanced dataset. Hoe kan oversampling of undersampling dit oplossen? Wordt deze techniek bij DL ook toegepast?
+- Oversampling meestal goed --> verschillende categorieen beter herkennen
+- Collect more data from the minority class
+- Use penalized models
+- More: https://medium.com/strands-tech-corner/unbalanced-datasets-what-to-do-144e0552d9cd

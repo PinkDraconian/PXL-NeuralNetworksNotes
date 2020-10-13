@@ -1,7 +1,7 @@
 ---
 title: Abbreviations
 created: '2020-09-21T16:59:04.974Z'
-modified: '2020-10-06T18:08:26.534Z'
+modified: '2020-10-13T16:06:46.207Z'
 ---
 
 # Abbreviations
@@ -9,6 +9,7 @@ modified: '2020-10-06T18:08:26.534Z'
 | --- | --- | --- |
 | AI | Artificial Intelligence | 1 |
 | Adam | Adaptive Moment Estimation | 3 |
+| CNN | Convolutional Neural Network | 4 |
 | DL | Deep Learning | 1 |
 | ELU | Exponential Linear Unit | 2 |
 | HITL | Human-in-the-loop | 1 |

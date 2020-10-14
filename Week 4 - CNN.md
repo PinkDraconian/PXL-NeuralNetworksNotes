@@ -1,7 +1,7 @@
 ---
 title: Week 4 - CNN
 created: '2020-10-13T16:06:23.155Z'
-modified: '2020-10-13T16:26:15.388Z'
+modified: '2020-10-14T20:10:53.280Z'
 ---
 
 # Week 4 - CNN
@@ -26,3 +26,17 @@ Conv2D -> BatchNorm -> ReLU -> MaxPool
 Classification: Traditional CNN
 Classfication with localization: Simplified YOLO, R-CNN
 Detection: YOLO, R-CNN
+
+## Questions
+### Waarom gebruiken we geen DNN om computer vision te doen op images?
+1. anders zijn er veel te veel input parameters. elke image heeft een r, g, b en alpha
+2. als de image verspringt is het minder gegeneraliseerd. als objecten op verschillende locaties staan
+
+### Leg een typisch CNN architectuur uit voor image classification
+1. Padding
+2. Convolution layer
+3. Batch normalisation
+4. Activation
+5. Pooling
+6. Flattening
+7. Dense layer
